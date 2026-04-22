@@ -77,7 +77,7 @@ draw.text((rx, 96), "Custom industrial thermal equipment", font=font_title_en, f
 draw.text((rx, 128), "Automoción  ·  Cerámica  ·  Química  ·  Alimentación", font=font_sectors, fill=GRAY_DARK)
 
 # URL bottom-right
-url = "grupopiroval.com"
+url = "hornosysecaderos.com"
 bbox = draw.textbbox((0, 0), url, font=font_url)
 url_w = bbox[2] - bbox[0]
 ux = W - url_w - 28

@@ -68,7 +68,7 @@ draw.rectangle([rx, 86, rx + 36, 88], fill=RED)
 draw.text((rx, 98), "Custom industrial thermal equipment", font=font_title_en, fill=GRAY_LIGHT)
 draw.text((rx, 130), "Automoción  ·  Cerámica  ·  Química  ·  Alimentación", font=font_sectors, fill=GRAY)
 
-url = "grupopiroval.com"
+url = "hornosysecaderos.com"
 bbox = draw.textbbox((0, 0), url, font=font_url)
 url_w = bbox[2] - bbox[0]
 ux = W - url_w - 28

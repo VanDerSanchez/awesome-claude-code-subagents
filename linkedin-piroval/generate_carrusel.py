@@ -416,12 +416,12 @@ def slide_9():
     )
     y = draw_wrapped(d, (110, card_y + 130), body, F("r", 28), GRAY_DARK, max_w=W - 240, line_spacing=1.35)
 
-    # Contact block
+    # Contact block — stacked so the long email fits comfortably
     d.text((110, y + 40), "WEB", font=F("b", 18), fill=GRAY)
-    d.text((110, y + 66), "grupopiroval.com", font=F("b", 32), fill=RED)
+    d.text((110, y + 66), "hornosysecaderos.com", font=F("b", 30), fill=RED)
 
-    d.text((560, y + 40), "CONTACTO", font=F("b", 18), fill=GRAY)
-    d.text((560, y + 66), "info@grupopiroval.com", font=F("b", 28), fill=DARK)
+    d.text((110, y + 130), "CONTACTO", font=F("b", 18), fill=GRAY)
+    d.text((110, y + 156), "grupopiroval@grupopiroval.com", font=F("b", 26), fill=DARK)
 
     draw_footer(d, 9, 9, on_dark=True)
     return img
