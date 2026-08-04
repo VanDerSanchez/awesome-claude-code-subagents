@@ -5,7 +5,12 @@
       "Bash(do grep -l \"## Communication Protocol\" \"$file\")",
       "Bash(done)",
       "Bash(python3:*)",
-      "Bash(git status:*)"
+      "Bash(git status:*)",
+      "mcp__Google-Calendar__list_events",
+      "mcp__Google-Calendar__list_calendars",
+      "mcp__Gmail__search_threads",
+      "mcp__Gmail__get_thread",
+      "mcp__Gmail__get_message"
     ],
     "deny": [],
     "ask": []
